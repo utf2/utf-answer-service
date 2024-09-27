@@ -3,8 +3,8 @@ package transfer
 import "github.com/google/uuid"
 
 type SearchStudentAnswersRequest struct {
-	StudentID   uuid.UUID
-	QuestionIDs uuid.UUIDs
+	StudentID uuid.UUID
+	FormID    uuid.UUID
 }
 
 type SearchStudentAnswersResponse struct {
